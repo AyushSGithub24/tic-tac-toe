@@ -1,0 +1,109 @@
+* {
+   margin: 0;
+   padding: 0;
+
+}
+
+body {
+   color: aliceblue;
+   background-color: #222;
+}
+
+.parent {
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.screen {
+   background-color: rgba(214, 186, 86, 0.92);
+   height: 80%;
+   width: 60%;
+   color: black;
+   border-radius: 25px;
+   padding: 50px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+button {
+   padding: 10px 30px;
+   font-size: x-large;
+   border-radius: 5px;
+   border: none;
+   cursor: pointer;
+}
+
+#Yes {
+   background-color: rgb(69, 162, 69);
+   color: #fff;
+}
+
+#No {
+   background-color: red;
+}
+
+#Yes:hover {
+   background-color: #04AA6D;
+}
+
+
+.Choice {
+   height: 100%;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.ChoiceChild {
+   background-color: #252525;
+   border-radius: 20px;
+   padding: 10px;
+}
+
+.ChoiceChild:hover {
+   opacity: 90%;
+}
+
+.grid {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr;
+   height: 650px;
+   width: 650px;
+   background-color: rgb(47, 47, 47);
+
+   padding: 0;
+   justify-content: center;
+   align-content: center;
+   border-radius: 10px;
+}
+
+.child {
+   height: 90%;
+   width: 90%;
+   background: red;
+   margin: 5px;
+   border-radius: 5px;
+   border: 0;
+   padding: 5px;
+   border: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.child:hover {
+   opacity: 80%;
+
+}
+
+.replay {
+   background-image: url();
+   background-repeat: no-repeat;
+   background-size: cover;
+}
